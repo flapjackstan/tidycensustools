@@ -1,0 +1,27 @@
+{
+    "id": "92122031",
+    "path": "~/personal/github/tidycensustools/R/tidycensustools.R",
+    "project_path": "R/tidycensustools.R",
+    "type": "r_source",
+    "hash": "620966143",
+    "contents": "",
+    "dirty": false,
+    "created": 1618600338991.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "101,42",
+        "scrollLine": "88"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1618847493,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618847493704,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,39 @@
+---
+title: "examples"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{examples}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Example on How to use function
+
+Must load both libraries and install api key
+
+```{r setup}
+library(tidyverse)
+library(tidycensus)
+library(tidycensustools)
+
+census_api_key("6ed2c84b691cee46900c6dc2d03ed90d8d4db051", overwrite=TRUE)
+
+```
+
+
+Using Time Series Function
+
+```{r}
+
+df <- census_table_timeseries("B25014", "county", "CA", c("Los Angeles", "Orange"), c(2019,2018,2017))
+
+df
+
+```

@@ -1,0 +1,22 @@
+Package: tidycensustools
+Type: Package
+Title: Additional Tools for Tidycensus
+Version: 0.1.0
+Author: Elmer Camargo
+Maintainer: Elmer Camargo <ECamargopena@ph.lacounty.gov>
+Description: Tools to make the tidycensus api a bit easier to use
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tibble,
+    tidycensus
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
